@@ -3,6 +3,10 @@ npm init -y
 npm i typescript -D
 
 ## 配置tsconfig.json
+```
+$ tsc --init
+```
+
 "declaration": true    //生成声明文件
 
 "outDir": "./dist",    // 输出目录
